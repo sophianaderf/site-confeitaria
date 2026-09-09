@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Libertinus Math", system-ui;
+
+}
+
+header {
+    height: 200px;
+    display: flex;
+    background-color: #FAF9F5;
+}
+
+.div-logo {
+    width: 15%;
+    height: 194px;
+}
+
+.div-menu {
+    width: 85%;
+    height: 194px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logotipo {
+    height: 180px;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    list-style-type: none;
+}
+
+h1 {
+    color: #ab3b57;
+    font-size: 40px;
+}
+
+ul li {
+    color: #ab3b57;
+}
+
+a { 
+    text-decoration: none;
+    color: #ab3b57;
+    font-size: 20px;
+}
+
+a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.img-bolo {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.sobre {
+   
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+h2 {
+    font-size: 25px;
+    margin-top: 20px;
+
+}
+
+
+p {
+    font-size: 20px;
+    margin-top: 10px;
+
+}
+
+.menu-cardapio-itens {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.menu-cardapio-item {
+    border: 2px solid #ab3b57;
+    border-radius: 5px;
+    width: 20%;
+    box-shadow: 6px 2px 6px 1px rgb(194 128 128 / 62%);
+    padding: 20px;
+
+}
+
+h3 {
+    font-size: 25px;
+    color: #ab3b57;
+    font-weight: bold;
+}
+
+.menu-cardapio-item p {
+    font-size: 20px;
+}
+
+footer {
+    background-color: #FAF9F5;
+    height: 50px;
+    margin-top: 20px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
