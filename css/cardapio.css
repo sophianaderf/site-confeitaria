@@ -34,7 +34,7 @@
 }
 
 .menu-cardapio-item p {
-    font-size: 17px;
+    font-size: 20px;
     text-align: justify;
     line-height: 1.5;
     margin-top: 10px;
@@ -70,6 +70,32 @@
     background-color: white;
     border-radius: 10px;
     width: 300px;
-    padding: 10px;
+    padding: 20px;
     z-index: 2;
+}
+
+.fechar {
+    text-align: right;
+}
+
+.button-reserva {
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 20px;
+    background-color: transparent;
+    border: 0px;
+    color: #ab3b57;
+    font-weight: bold;
+}
+
+.button-reserva:hover {
+    text-decoration: underline;
+}
+
+.centralizado {
+    text-align: center;
+}
+
+p {
+    font-size: 30px;
 }

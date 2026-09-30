@@ -53,7 +53,7 @@
             </nav>
 
         </div>
-
+        <div class="div-logo"></div>
     </header>
 
 
@@ -78,11 +78,11 @@
                     recheio cremoso e uma irresistível cobertura de chocolate!
                 </p>
 
+
                 <div class="reservar">
-                    <button onclick="abrir()">
-                    Reservar
-                </button>
-                
+                    <button class="button-reserva" onclick="abrir()">
+                        Reservar
+                    </button>
                 </div>
 
             </div>
@@ -103,7 +103,9 @@
                 </p>
 
                 <div class="reservar">
-                    <a href="">Reservar</a>
+                    <button class="button-reserva" onclick="abrir()">
+                        Reservar
+                    </button>
                 </div>
 
             </div>
@@ -123,8 +125,11 @@
                     recheio cremoso e uma irresistível cobertura!
                 </p>
 
+
                 <div class="reservar">
-                    <a href="">Reservar</a>
+                    <button class="button-reserva" onclick="abrir()">
+                        Reservar
+                    </button>
                 </div>
 
             </div>
@@ -144,8 +149,11 @@
                     recheio cremoso de coco e uma irresistível cobertura!
                 </p>
 
+
                 <div class="reservar">
-                    <a href="">Reservar</a>
+                    <button class="button-reserva" onclick="abrir()">
+                        Reservar
+                    </button>
                 </div>
 
             </div>
@@ -165,8 +173,11 @@
                     recheio cremoso de avelã e uma irresistível cobertura!
                 </p>
 
+
                 <div class="reservar">
-                    <a href="">Reservar</a>
+                    <button class="button-reserva" onclick="abrir()">
+                        Reservar
+                    </button>
                 </div>
 
             </div>
@@ -186,8 +197,11 @@
                     recheio cremoso e uma irresistível cobertura!
                 </p>
 
+
                 <div class="reservar">
-                    <a href="">Reservar</a>
+                    <button class="button-reserva" onclick="abrir()">
+                        Reservar
+                    </button>
                 </div>
 
             </div>
@@ -197,19 +211,22 @@
 
     </section>
 
-    <div id="fade" class="fade"></div>
+    <div id="fade" class="hide"></div>
 
-    <div id="modal" class="modal">
-        <div>
+    <div id="modal" class="hide">
+        <div class="centralizado">
             <h2>Realizar Reserva</h2>
-            <img src="" alt="">
+            <img src="../img/qrcode.png" alt="QRCode para pagamento via Pix">
+        </div>
+
+        <div class="fechar">
+            <a href="">Fechar</a>
         </div>
 
     </div>
 
-    
+    <script src="../js/cardapio.js"></script>
 
 </body>
-<script src="../js/cardapio.js"></script>
 
 </html>
