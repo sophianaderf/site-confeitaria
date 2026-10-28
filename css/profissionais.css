@@ -1,0 +1,37 @@
+table {
+    border: 1px solid;
+    border-radius: 3px;
+    border-color: #A93A56;
+}
+
+table img {
+    width: 60%;
+    border-radius: 5px;
+}
+
+table img:hover {
+    width: 100%;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+table td {
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: #A93A56
+    padding: 4px;
+}
+
+table thead tr {
+    font-weight: bold;
+    font-size: 30px;
+    background-color: #FAF9F5;
+}
+
+table tbody tr {
+    font-size: 20px;
+}
+
+.sobre {
+    margin: 50px;
+}
